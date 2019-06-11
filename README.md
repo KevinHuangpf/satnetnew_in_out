@@ -1,2 +1,1 @@
-# CRDSA_S
-CRDSA_S，Upgraded version of CRDSA protocol with better performance.
+SIC中加入fading之后，在时隙内进行译码后再到时隙外进行译码
