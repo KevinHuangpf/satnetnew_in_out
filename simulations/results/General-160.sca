@@ -1,0 +1,35 @@
+version 2
+run General-160-20190609-20:44:06-42372
+attr configname General
+attr datetime 20190609-20:44:06
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars $numSatTerminals=16
+attr iterationvars2 "$numSatTerminals=16, $repetition=0"
+attr measurement $numSatTerminals=16
+attr network Ipnet
+attr numSatTerminals 16
+attr processid 42372
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 160
+attr seedset 160
+
+scalar . 	numSatTerminals 	16
+scalar Ipnet.satGateway.satGatewayPhy 	delay:mean 	nan
+attr source  delay
+attr title  "delay, mean"
+scalar Ipnet.satGateway.satGatewayPhy 	delay:sum 	0
+attr source  delay
+attr title  "delay, sum"
+statistic Ipnet.satGateway.satGatewayPhy 	delay:stats
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+attr source  delay
+attr title  "delay, stats"
